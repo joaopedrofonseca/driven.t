@@ -3,6 +3,11 @@ export type ApplicationError = {
   message: string;
 };
 
+export type InvalidCEP = {
+  name: string;
+  message: { erro: string };
+};
+
 export type ViaCEPAddress = {
   logradouro: string;
   complemento: string;
